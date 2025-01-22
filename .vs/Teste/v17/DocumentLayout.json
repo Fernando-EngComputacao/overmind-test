@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\carri\\source\\repos\\Teste\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\services\\storeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:services\\storeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\services\\interfaces\\istoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:services\\interfaces\\istoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\models\\device\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:models\\device\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\config\\interface\\iconfigvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:config\\interface\\iconfigvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\config\\configvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:config\\configvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\models\\apple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:models\\apple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,30 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\config\\configvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:config\\configvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\config\\interface\\iconfigvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:config\\interface\\iconfigvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\models\\device\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:models\\device\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\services\\interfaces\\istoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:services\\interfaces\\istoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|c:\\users\\carri\\source\\repos\\teste\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2843D448-5E70-494C-A294-FF80E3E81B07}|Teste.csproj|solutionrelative:controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,33 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ConfigVariable.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\source\\repos\\Teste\\Config\\ConfigVariable.cs",
-              "RelativeDocumentMoniker": "Config\\ConfigVariable.cs",
-              "ToolTip": "C:\\Users\\carri\\source\\repos\\Teste\\Config\\ConfigVariable.cs",
-              "RelativeToolTip": "Config\\ConfigVariable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "DocumentIndex": 0,
+              "Title": "StoreService.cs",
+              "DocumentMoniker": "C:\\Users\\carri\\source\\repos\\Teste\\Services\\StoreService.cs",
+              "RelativeDocumentMoniker": "Services\\StoreService.cs",
+              "ToolTip": "C:\\Users\\carri\\source\\repos\\Teste\\Services\\StoreService.cs",
+              "RelativeToolTip": "Services\\StoreService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA/wDEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T23:06:56.395Z",
+              "WhenOpened": "2025-01-22T23:39:43.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\carri\\source\\repos\\Teste\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\carri\\source\\repos\\Teste\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-22T23:04:48.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Dados.cs",
               "DocumentMoniker": "C:\\Users\\carri\\source\\repos\\Teste\\Models\\Device\\Dados.cs",
               "RelativeDocumentMoniker": "Models\\Device\\Dados.cs",
@@ -101,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "IStoreService.cs",
               "DocumentMoniker": "C:\\Users\\carri\\source\\repos\\Teste\\Services\\Interfaces\\IStoreService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IStoreService.cs",
@@ -109,11 +100,12 @@
               "RelativeToolTip": "Services\\Interfaces\\IStoreService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T21:40:35.731Z"
+              "WhenOpened": "2025-01-22T21:40:35.731Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Device.cs",
               "DocumentMoniker": "C:\\Users\\carri\\source\\repos\\Teste\\Models\\Device\\Device.cs",
               "RelativeDocumentMoniker": "Models\\Device\\Device.cs",
@@ -126,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Apple.cs",
               "DocumentMoniker": "C:\\Users\\carri\\source\\repos\\Teste\\Models\\Apple.cs",
               "RelativeDocumentMoniker": "Models\\Apple.cs",
@@ -139,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "IConfigVariable.cs",
               "DocumentMoniker": "C:\\Users\\carri\\source\\repos\\Teste\\Config\\Interface\\IConfigVariable.cs",
               "RelativeDocumentMoniker": "Config\\Interface\\IConfigVariable.cs",
@@ -152,28 +144,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\carri\\source\\repos\\Teste\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\carri\\source\\repos\\Teste\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T21:39:17.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "StoreController.cs",
               "DocumentMoniker": "C:\\Users\\carri\\source\\repos\\Teste\\Controllers\\StoreController.cs",
               "RelativeDocumentMoniker": "Controllers\\StoreController.cs",
               "ToolTip": "C:\\Users\\carri\\source\\repos\\Teste\\Controllers\\StoreController.cs",
               "RelativeToolTip": "Controllers\\StoreController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T21:43:19.63Z"
+              "WhenOpened": "2025-01-22T21:43:19.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\carri\\source\\repos\\Teste\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\carri\\source\\repos\\Teste\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-22T23:04:48.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConfigVariable.cs",
+              "DocumentMoniker": "C:\\Users\\carri\\source\\repos\\Teste\\Config\\ConfigVariable.cs",
+              "RelativeDocumentMoniker": "Config\\ConfigVariable.cs",
+              "ToolTip": "C:\\Users\\carri\\source\\repos\\Teste\\Config\\ConfigVariable.cs",
+              "RelativeToolTip": "Config\\ConfigVariable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T23:06:56.395Z",
+              "EditorCaption": ""
             }
           ]
         }

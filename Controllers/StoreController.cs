@@ -13,6 +13,10 @@ public class StoreController : ControllerBase
         _storeService = storeService;
     }
 
+    /// <summary>
+    /// Obtém os produtos da loja da marca Apple
+    /// </summary>
+    /// <returns> Nome e preço dos produtos Apple</returns>
     [HttpGet]
     public async Task<IActionResult> ObterProdutos()
     {

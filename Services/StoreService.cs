@@ -40,7 +40,7 @@ namespace Teste.Services
 
                         var applePrices = listaDevices
                             .Where(x => x.name.ToUpper().Contains("APPLE") &&
-                                        x.data != null && x.data.price > 0)
+                                        x.data != null && x.data.price != null)
                             .Select(x => new Apple
                             {
                                 Nome = x.name,
@@ -49,7 +49,6 @@ namespace Teste.Services
                             .ToList();
 
                         GerarCSV(applePrices);
-                        var appleAveragePrice = "Fernando";
                     }
                     else
                     {
@@ -69,11 +68,11 @@ namespace Teste.Services
             return listaDevices;
         }
 
-        public void GerarCSV(List<Apple> appleList)
+        protected void GerarCSV(List<Apple> appleList)
         {
             if (appleList == null || appleList.Count == 0) return;
 
-            var diretorio = GetDiretorio("apple.csv");
+            var diretorio = GetDiretorio("apple_list.csv");
             var linhas = new List<string>();
             linhas.Add("Nome;Preco");
 

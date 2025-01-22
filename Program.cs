@@ -1,4 +1,3 @@
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Teste.Config;
 using Teste.Config.Interface;
@@ -14,15 +13,12 @@ var configBuilder = new ConfigurationBuilder()
     .AddCommandLine(args);
 
 
-// Adiciona a configuração ao builder
 builder.Configuration.AddConfiguration(configBuilder.Build());
 
 builder.Services.Configure<ConfigVariable>(builder.Configuration.GetSection(key: ConfigVariable.CONFIG_NAME));
 builder.Services.AddHttpClient();
 
-// Add services to the container.
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

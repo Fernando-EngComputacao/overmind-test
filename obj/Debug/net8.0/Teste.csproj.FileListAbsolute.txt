@@ -30,3 +30,4 @@ C:\Users\carri\source\repos\Teste\obj\Debug\net8.0\refint\Teste.dll
 C:\Users\carri\source\repos\Teste\obj\Debug\net8.0\Teste.pdb
 C:\Users\carri\source\repos\Teste\obj\Debug\net8.0\Teste.genruntimeconfig.cache
 C:\Users\carri\source\repos\Teste\obj\Debug\net8.0\ref\Teste.dll
+C:\Users\carri\source\repos\Teste\obj\Debug\net8.0\Teste.sourcelink.json

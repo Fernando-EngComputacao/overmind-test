@@ -25,6 +25,17 @@ public class StoreController : ControllerBase
     }
 
     /// <summary>
+    /// Obtém os produtos da loja da marca Apple e gera CSV e salva no diretório do debug, incluso produtos com valores 0
+    /// </summary>
+    /// <returns> Nome e preço dos produtos Apple</returns>
+    [HttpGet("list/apple/salve/to/debug")]
+    public async Task<IActionResult> GetAppleListSaveToDebug()
+    {
+        var appleList = await _storeService.GetAppleListToDebug();
+        return Ok(appleList);
+    }
+
+    /// <summary>
     /// Obtém os produtos da loja de todas as marcas
     /// </summary>
     /// <returns> Dados gerais dos produtos das lojas</returns>

@@ -7,5 +7,6 @@ namespace Teste.Services.Interfaces
     {
         Task<List<Apple>> GetAppleList();
         Task<List<Device>> GetDeviceList();
+        Task<List<Apple>> GetAppleListToDebug();
     }
 }

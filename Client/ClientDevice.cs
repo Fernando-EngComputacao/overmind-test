@@ -32,11 +32,30 @@ public class ClientDevice : IClientDevices
             .ToList();
 
         //Gera Lista CSV
-        GenerateCSV(applePrices);
+        GenerateCSV(applePrices, false);
 
         return applePrices;
     }
 
+    public async Task<List<Apple>> GetAppleListToDebug()
+    {
+        var devicesList = await GetDeviceList();
+
+        var applePrices = devicesList
+            .Where(x => x.name.ToUpper().Contains("APPLE") &&
+                        x.data != null && x.data.price != null)
+            .Select(x => new Apple
+            {
+                Nome = x.name,
+                Preco = x.data.price
+            })
+            .ToList();
+
+        //Gera Lista CSV
+        GenerateCSV(applePrices, true);
+
+        return applePrices;
+    }
     public async Task<List<Device>> GetDeviceList()
     {
         var listaDevices = new List<Device>();
@@ -75,11 +94,11 @@ public class ClientDevice : IClientDevices
         return null;
     }
 
-    protected void GenerateCSV(List<Apple> appleList)
+    protected void GenerateCSV(List<Apple> appleList, bool toDebug)
     {
         if (appleList == null || appleList.Count == 0) return;
 
-        var diretorio = GetDiretorio();
+        var diretorio = toDebug ? Path.Combine(AppContext.BaseDirectory, FileName) : GetDiretorio();
         var linhas = new List<string>();
         linhas.Add("Nome;Preco");
 
@@ -97,10 +116,12 @@ public class ClientDevice : IClientDevices
 
         Console.WriteLine($"Arquivo gerado em: {diretorio}");
     }
+    
+
 
     protected string GetDiretorio()
     {
-        return Path.Combine(PathWay + $"{FileName}");
+        return Path.Combine(PathWay, $"{FileName}");
     }
 
 }

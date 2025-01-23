@@ -19,6 +19,8 @@ namespace Teste.Services
 
         public async Task<List<Device>> GetDeviceList() => await _clientDevice.GetDeviceList();
 
+        public async Task<List<Apple>> GetAppleListToDebug() => await _clientDevice.GetAppleListToDebug();
+
         
     }
 }

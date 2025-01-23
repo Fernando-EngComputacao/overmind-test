@@ -7,4 +7,5 @@ public interface IClientDevices
 {
     Task<List<Device>> GetDeviceList();
     Task<List<Apple>> GetAppleList();
+    Task<List<Apple>> GetAppleListToDebug();
 }

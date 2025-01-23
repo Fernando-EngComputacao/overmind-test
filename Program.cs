@@ -1,4 +1,6 @@
 using Microsoft.Extensions.Options;
+using Microsoft.OpenApi.Models;
+using System.Reflection;
 using Teste.Client;
 using Teste.Client.Interfaces;
 using Teste.Config;
@@ -22,8 +24,15 @@ builder.Services.AddHttpClient();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo() { Title = "API-Overmind", Version = "v1" });
 
+    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+
+    c.IncludeXmlComments(xmlPath);
+});
 
 builder.Services.AddScoped<IStoreService, StoreService>();
 builder.Services.AddScoped<IClientDevices, ClientDevice>();

@@ -31,9 +31,14 @@ OvermindTeste é um projeto no qual se acessa uma api via client, recebe seus da
 
 ## :bookmark: Recursos Adicionais
 ### - 2 GETs
-- Primeiro: Busca todos os produtos e filtra pela marca Apple (string: Nome, decimal: Preco), optei por considerar os produtos com valor 0.
-
-- Segundo: Busca todos os dispositivos, com todas suas informações.
+- Primeiro: Busca todos os produtos e filtra pela marca Apple (string: Nome, decimal: Preco), optei por considerar os produtos com valor 0. Salva em local escolhido pelo dev.
+  
+  -     store/list/apple
+- Segundo: Busca todos os produtos e filtra pela marca Apple (string: Nome, decimal: Preco), optei por considerar os produtos com valor 0. Salva no bin/debug.
+  -      store/list/apple/salve/to/debug
+- Terceiro:Busca todos os dispositivos, com todas suas informações.
+  -      store/list/device
+- [Acessar Imagem Swagger](https://prnt.sc/D_XZKagNoRMQ)
 
 ### - Local Registro CSV
  - No ```appsettings.json``` há uma variável de nome ```SalveCSV:LocalArmazenamento```, é neste local que você informará o local do armazenamento do CSV.  

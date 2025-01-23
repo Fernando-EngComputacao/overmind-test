@@ -49,10 +49,18 @@ Teste é um projeto no qual se acessa uma api via client, recebe seus dados (dev
 ###### - Vá ao appsettings.json da pasta raíz do seu projeto e insira o caminho para registro de seu csv.
 
     "SalveCSV": {
-        "LocalArmazenamento": "C:\\local\\desejado\\"
+        "LocalArmazenamento": "C:\\local\\desejado\\",
+        "NomeArquivo": "nome_arquivo_desejado.csv"
     }
 }
 
+###### - Exemplo preenchido:
+
+    "SalveCSV": {
+        "LocalArmazenamento": "C:\\user\\fernando\\Downloads",
+        "NomeArquivo": "lista_produtos_apple.csv"
+    }
+}
 
 ####  :sunglasses: Autor: Fernando Furtado (2025)
 - [LinkedIn](https://linkedin.com/in/furtadof/)

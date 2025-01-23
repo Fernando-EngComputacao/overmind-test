@@ -15,6 +15,7 @@ Teste é um projeto no qual se acessa uma api via client, recebe seus dados (dev
 ## :1st_place_medal: Envolvimento do projeto
 - [x] Implementação de GET;
 - [x] Registro de CSV;
+  - Local do arquivo no projeto: pasta raíz do projeto > Core > File > apple_list.csv
 - [x] Documentação da API em Swagger com anotação;
 - [x] Atuação de filtragem de consultas com LINQ;
 

@@ -10,7 +10,7 @@ OvermindTeste é um projeto no qual se acessa uma api via client, recebe seus da
 - [x] GET dos Produtos Apple (nome, preço) com registro no bin/degub;
 - [x] GET de todos os Produtos da API (todos os campos);
 - [x] Criação CSV dos Produto Apple (nome, preço).
-
+[]
 ---
 
 ## :1st_place_medal: Envolvimento do projeto
@@ -19,7 +19,7 @@ OvermindTeste é um projeto no qual se acessa uma api via client, recebe seus da
   - Local do arquivo no projeto: pasta raíz do projeto > Core > File > apple_list.csv
 - [x] Documentação da API em Swagger com anotação;
 - [x] Atuação de filtragem de consultas com LINQ;
-
+- [Acessar Imagem Swagger](https://prnt.sc/D_XZKagNoRMQ)
 
 --- 
 

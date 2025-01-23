@@ -1,6 +1,6 @@
 ﻿## 💻 Sobre o projeto
 
-Teste é um projeto no qual se acessa uma api via client, recebe seus dados (devices), os filtra, gera CSV dos produtos Apple inclusos os campos de "Nome" e "Preço".
+OvermindTeste é um projeto no qual se acessa uma api via client, recebe seus dados (devices), os filtra, gera CSV dos produtos Apple, inclusos os camposde "Nome" e "Preço".
 
 ---
 

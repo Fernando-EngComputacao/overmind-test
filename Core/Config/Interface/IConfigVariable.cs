@@ -3,4 +3,5 @@
 public interface IConfigVariable
 {
     string LocalArmazenamento { get; }
+    string NomeArquivo { get; }
 }

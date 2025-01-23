@@ -9,10 +9,12 @@ namespace Teste.Client;
 public class ClientDevice : IClientDevices
 {
     private string PathWay { get; set; }
+    private string FileName { get; set; }
 
     public ClientDevice(IConfigVariable config)
     {
         PathWay = config.LocalArmazenamento;
+        FileName = config.NomeArquivo;
     }
 
     public async Task<List<Apple>> GetAppleList()
@@ -77,7 +79,7 @@ public class ClientDevice : IClientDevices
     {
         if (appleList == null || appleList.Count == 0) return;
 
-        var diretorio = GetDiretorio("apple_list.csv");
+        var diretorio = GetDiretorio();
         var linhas = new List<string>();
         linhas.Add("Nome;Preco");
 
@@ -96,9 +98,9 @@ public class ClientDevice : IClientDevices
         Console.WriteLine($"Arquivo gerado em: {diretorio}");
     }
 
-    protected string GetDiretorio(string fileName)
+    protected string GetDiretorio()
     {
-        return PathWay + $"{fileName}";
+        return Path.Combine(PathWay + $"{FileName}");
     }
 
 }

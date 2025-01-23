@@ -6,7 +6,8 @@ Teste é um projeto no qual se acessa uma api via client, recebe seus dados (dev
 
 ## ⚙️ Funcionalidades
 
-- [x] GET dos Produtos Apple (nome, preço);
+- [x] GET dos Produtos Apple (nome, preço) com registro em local escolhido;
+- [x] GET dos Produtos Apple (nome, preço) com registro no bin/degub;
 - [x] GET de todos os Produtos da API (todos os campos);
 - [x] Criação CSV dos Produto Apple (nome, preço).
 

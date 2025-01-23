@@ -18,9 +18,9 @@ public class StoreController : ControllerBase
     /// </summary>
     /// <returns> Nome e preço dos produtos Apple</returns>
     [HttpGet]
-    public async Task<IActionResult> ObterProdutos()
+    public async Task<IActionResult> GetAppleList()
     {
-        var valor =  await _storeService.ObterProdutos();
+        var valor =  await _storeService.GetAppleList();
         return Ok(valor);
     }
 }

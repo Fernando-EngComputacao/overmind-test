@@ -1,4 +1,6 @@
 using Microsoft.Extensions.Options;
+using Teste.Client;
+using Teste.Client.Interfaces;
 using Teste.Config;
 using Teste.Config.Interface;
 using Teste.Services;
@@ -24,6 +26,7 @@ builder.Services.AddSwaggerGen();
 
 
 builder.Services.AddScoped<IStoreService, StoreService>();
+builder.Services.AddScoped<IClientDevices, ClientDevice>();
 builder.Services.AddSingleton<IConfigVariable>(provider => provider.GetRequiredService<IOptions<ConfigVariable>>().Value);
 
 

@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using Teste.Client.Interfaces;
-using Teste.Config.Interface;
-using Teste.Models;
+using Teste.Core.Config.Interface;
+using Teste.Models.Apple;
 using Teste.Models.Device;
 
 namespace Teste.Client;

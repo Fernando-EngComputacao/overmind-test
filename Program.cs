@@ -3,8 +3,8 @@ using Microsoft.OpenApi.Models;
 using System.Reflection;
 using Teste.Client;
 using Teste.Client.Interfaces;
-using Teste.Config;
-using Teste.Config.Interface;
+using Teste.Core.Config;
+using Teste.Core.Config.Interface;
 using Teste.Services;
 using Teste.Services.Interfaces;
 

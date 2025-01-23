@@ -1,6 +1,5 @@
 ﻿using Teste.Client.Interfaces;
-using Teste.Config.Interface;
-using Teste.Models;
+using Teste.Models.Apple;
 using Teste.Models.Device;
 using Teste.Services.Interfaces;
 

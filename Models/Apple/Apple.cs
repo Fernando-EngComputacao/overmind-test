@@ -1,4 +1,4 @@
-﻿namespace Teste.Models;
+﻿namespace Teste.Models.Apple;
 
 public class Apple
 {

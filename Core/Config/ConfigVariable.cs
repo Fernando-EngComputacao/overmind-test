@@ -1,6 +1,6 @@
-﻿using Teste.Config.Interface;
+﻿using Teste.Core.Config.Interface;
 
-namespace Teste.Config;
+namespace Teste.Core.Config;
 
 public class ConfigVariable : IConfigVariable
 {

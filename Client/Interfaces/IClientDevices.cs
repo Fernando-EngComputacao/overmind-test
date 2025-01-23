@@ -1,4 +1,4 @@
-﻿using Teste.Models;
+﻿using Teste.Models.Apple;
 using Teste.Models.Device;
 
 namespace Teste.Client.Interfaces;

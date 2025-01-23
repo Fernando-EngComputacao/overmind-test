@@ -1,4 +1,4 @@
-﻿namespace Teste.Config.Interface;
+﻿namespace Teste.Core.Config.Interface;
 
 public interface IConfigVariable
 {
